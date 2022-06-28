@@ -1,0 +1,10 @@
+.initials-container {
+    min-width: 2.31rem;
+  }
+  
+  body .icon-parent::before {
+    content: "A";
+    width: 0px;
+    visibility: hidden;
+    display: inline-block;
+  }
